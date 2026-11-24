@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application' version '8.13.2'
+}
+android {
+    namespace 'app.skyline.weather'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'app.skyline.weather'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
